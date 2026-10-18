@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="'Space Grotesk', 'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6f2e8"/>
+      <stop offset="1" stop-color="#e3d3a6"/>
+    </linearGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#1b2a56" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="800" height="480" fill="url(#bg)"/>
+  <circle cx="700" cy="70" r="120" fill="none" stroke="#cdb87f" stroke-width="26" opacity=".35"/>
+
+  <!-- browser window -->
+  <g filter="url(#sh)">
+    <rect x="70" y="56" width="660" height="400" rx="18" fill="#ffffff"/>
+  </g>
+  <rect x="70" y="56" width="660" height="40" rx="18" fill="#f1ead8"/>
+  <rect x="70" y="80" width="660" height="16" fill="#f1ead8"/>
+  <circle cx="98" cy="76" r="6" fill="#cdb87f"/>
+  <circle cx="118" cy="76" r="6" fill="#ffb81c"/>
+  <circle cx="138" cy="76" r="6" fill="#003594"/>
+  <rect x="300" y="68" width="200" height="16" rx="8" fill="#ffffff"/>
+
+  <!-- site nav -->
+  <text x="104" y="134" font-size="22" font-weight="700" fill="#1b2a56">bloom<tspan fill="#cdb87f">.</tspan></text>
+  <rect x="470" y="122" width="44" height="8" rx="4" fill="#d9dcE6"/>
+  <rect x="528" y="122" width="44" height="8" rx="4" fill="#d9dce6"/>
+  <rect x="586" y="122" width="44" height="8" rx="4" fill="#d9dce6"/>
+  <rect x="644" y="114" width="60" height="24" rx="8" fill="#1b2a56"/>
+
+  <!-- hero copy -->
+  <text x="104" y="210" font-size="40" font-weight="700" fill="#1b2a56">Slow coffee,</text>
+  <text x="104" y="256" font-size="40" font-weight="700" fill="#1b2a56">made <tspan fill="#003594">fresh.</tspan></text>
+  <rect x="104" y="280" width="270" height="9" rx="4.5" fill="#d9dce6"/>
+  <rect x="104" y="298" width="220" height="9" rx="4.5" fill="#d9dce6"/>
+  <rect x="104" y="330" width="138" height="42" rx="12" fill="#ffb81c"/>
+  <text x="173" y="357" font-size="15" font-weight="700" fill="#1b2a56" text-anchor="middle">Order online</text>
+  <rect x="254" y="330" width="110" height="42" rx="12" fill="none" stroke="#003594" stroke-width="2"/>
+  <text x="309" y="357" font-size="15" font-weight="700" fill="#003594" text-anchor="middle">Menu</text>
+
+  <!-- hero image: cup -->
+  <circle cx="575" cy="270" r="118" fill="#f6f2e8"/>
+  <circle cx="575" cy="270" r="118" fill="none" stroke="#cdb87f" stroke-width="2" stroke-dasharray="4 8"/>
+  <ellipse cx="575" cy="338" rx="92" ry="16" fill="#e3d3a6"/>
+  <path d="M510 236 h130 v44 a65 65 0 0 1 -130 0 z" fill="#ffffff" stroke="#1b2a56" stroke-width="4"/>
+  <path d="M640 250 h12 a20 20 0 0 1 0 40 h-16" fill="none" stroke="#1b2a56" stroke-width="4"/>
+  <ellipse cx="575" cy="236" rx="65" ry="12" fill="#7a5a3a"/>
+  <path d="M560 228 q8 -6 15 0 q7 6 15 0" fill="none" stroke="#f6f2e8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M552 196 q-10 -14 0 -28 M575 192 q-10 -14 0 -28 M598 196 q-10 -14 0 -28" fill="none" stroke="#cdb87f" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- small cards -->
+  <rect x="104" y="398" width="140" height="34" rx="10" fill="#f6f2e8"/>
+  <rect x="116" y="410" width="60" height="9" rx="4.5" fill="#cdb87f"/>
+  <rect x="256" y="398" width="140" height="34" rx="10" fill="#f6f2e8"/>
+  <rect x="268" y="410" width="76" height="9" rx="4.5" fill="#cdb87f"/>
+</svg>

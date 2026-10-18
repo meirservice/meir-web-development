@@ -1,0 +1,10 @@
+.env
+service-account.json
+*.json.key
+__pycache__/
+*.pyc
+.venv/
+venv/
+data/*.csv
+.DS_Store
+data/.booking.lock

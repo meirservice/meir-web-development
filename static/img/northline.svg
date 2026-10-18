@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="'Space Grotesk', 'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22336a"/>
+      <stop offset="1" stop-color="#0f1834"/>
+    </linearGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+    <g id="tee">
+      <path d="M-34 -30 l18 -12 h32 l18 12 l16 22 l-18 12 l-10 -10 v58 h-56 v-58 l-10 10 l-18 -12 z" />
+    </g>
+  </defs>
+  <rect width="800" height="480" fill="url(#bg)"/>
+  <circle cx="80" cy="430" r="110" fill="none" stroke="#cdb87f" stroke-width="22" opacity=".18"/>
+
+  <!-- store window -->
+  <g filter="url(#sh)">
+    <rect x="70" y="50" width="660" height="400" rx="18" fill="#ffffff"/>
+  </g>
+  <!-- store header -->
+  <text x="102" y="98" font-size="20" font-weight="700" letter-spacing="4" fill="#1b2a56">NORTHLINE</text>
+  <rect x="330" y="84" width="170" height="24" rx="12" fill="#eef0f5"/>
+  <circle cx="346" cy="96" r="5" fill="none" stroke="#5f6a89" stroke-width="2"/>
+  <rect x="610" y="86" width="40" height="8" rx="4" fill="#d9dce6"/>
+  <!-- cart -->
+  <rect x="664" y="80" width="40" height="30" rx="9" fill="#1b2a56"/>
+  <text x="684" y="101" font-size="14" font-weight="700" fill="#ffb81c" text-anchor="middle">2</text>
+  <line x1="70" y1="126" x2="730" y2="126" stroke="#e4e6ee" stroke-width="2"/>
+
+  <!-- filter chips -->
+  <rect x="102" y="144" width="54" height="24" rx="12" fill="#1b2a56"/>
+  <text x="129" y="161" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">All</text>
+  <rect x="164" y="144" width="66" height="24" rx="12" fill="#eef0f5"/>
+  <rect x="238" y="144" width="74" height="24" rx="12" fill="#eef0f5"/>
+  <rect x="320" y="144" width="60" height="24" rx="12" fill="#eef0f5"/>
+  <text x="698" y="161" font-size="12" font-weight="700" fill="#cdb87f" text-anchor="end">NEW DROP</text>
+
+  <!-- product grid -->
+  <g>
+    <rect x="102" y="186" width="140" height="150" rx="12" fill="#f6f2e8"/>
+    <use href="#tee" x="172" y="262" fill="#1b2a56"/>
+    <rect x="102" y="346" width="96" height="9" rx="4.5" fill="#1b2a56"/>
+    <text x="102" y="378" font-size="15" font-weight="700" fill="#003594">$24</text>
+
+    <rect x="258" y="186" width="140" height="150" rx="12" fill="#eef0f5"/>
+    <use href="#tee" x="328" y="262" fill="#cdb87f"/>
+    <rect x="258" y="346" width="84" height="9" rx="4.5" fill="#1b2a56"/>
+    <text x="258" y="378" font-size="15" font-weight="700" fill="#003594">$24</text>
+
+    <rect x="414" y="186" width="140" height="150" rx="12" fill="#f6f2e8"/>
+    <use href="#tee" x="484" y="262" fill="#003594"/>
+    <rect x="414" y="346" width="100" height="9" rx="4.5" fill="#1b2a56"/>
+    <text x="414" y="378" font-size="15" font-weight="700" fill="#003594">$28</text>
+    <rect x="520" y="196" width="26" height="18" rx="5" fill="#ffb81c"/>
+
+    <rect x="570" y="186" width="140" height="150" rx="12" fill="#eef0f5"/>
+    <use href="#tee" x="640" y="262" fill="#ffffff" stroke="#1b2a56" stroke-width="3"/>
+    <rect x="570" y="346" width="90" height="9" rx="4.5" fill="#1b2a56"/>
+    <text x="570" y="378" font-size="15" font-weight="700" fill="#003594">$22</text>
+  </g>
+
+  <!-- checkout bar -->
+  <rect x="102" y="398" width="608" height="36" rx="10" fill="#1b2a56"/>
+  <rect x="118" y="412" width="150" height="9" rx="4.5" fill="#cdb87f" opacity=".7"/>
+  <rect x="586" y="404" width="116" height="24" rx="8" fill="#ffb81c"/>
+  <text x="644" y="421" font-size="12" font-weight="700" fill="#1b2a56" text-anchor="middle">Checkout</text>
+</svg>
